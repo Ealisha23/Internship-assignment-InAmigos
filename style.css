@@ -31,6 +31,40 @@
             justify-content: space-between;
             align-items: center;
         }
+        /* Navigation Links */
+        .nav-links {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 2rem; /* Creates space between the links */
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+        
+        /* Special styling for the Donate button in the nav */
+        .nav-links .nav-btn {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.5rem 1.2rem;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-links .nav-btn:hover {
+            background-color: var(--primary-hover);
+            color: white; 
+            transform: translateY(-2px);
+        }
         
         .logo {
             font-size: 1.5rem;
@@ -53,6 +87,7 @@
             flex: 1;
             padding-right: 3rem;
         }
+
         
         .hero-text h1 {
             font-size: 3.5rem;
@@ -153,6 +188,16 @@
                 flex-direction: column;
                 text-align: center;
                 padding: 3rem 5%;
+            }
+            header {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .nav-links {
+                gap: 1.5rem;
+                flex-wrap: wrap;
+                justify-content: center;
             }
             
             .hero-text {

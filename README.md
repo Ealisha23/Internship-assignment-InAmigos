@@ -1,4 +1,4 @@
-# InAmigos Foundation - Landing Page UI
+# InAmigos Foundation - Awareness Page
 
 A clean, responsive, and professional landing page UI designed for the **InAmigos Foundation**. This project highlights the NGO's core initiatives, specifically focusing on "Uniting Minds For Change" through community-driven initiatives like **Project Vikas** and **Project Udaan**. 
 
